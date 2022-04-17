@@ -41,7 +41,7 @@ mowLawnEl.addEventListener("click", function(){
 pullWeedsEl.addEventListener("click", function(){
     items.push(30)
     tableEl.innerHTML+= `<tr>
-    <td class="left">Pull Weeds<span class="remove" id="removeWeeds-el">REMOVE</span></td>
+    <td class="left">Pull Weeds<span class="remove" id="removeWeeds-el" onClick="delWeeds()">REMOVE</span></td>
     <td class="right"><span class="cr">$</span>30</td>
 </tr>
     `
@@ -65,6 +65,16 @@ function total (){
 
 // REMOVE CAR WASH 
 
-removeCarEl.addEventListener("click", function(){
-    alert("Car wash removed")
-})
+
+// REMOVE PULL WEEDS
+function delWeeds (){
+    items.push(30)
+    tableEl.innerHTML+= `<tr>
+    <td class="left">Pull Weeds<span class="remove" id="removeWeeds-el" onClick="delWeeds()">REMOVE</span></td>
+    <td class="right"><span class="cr">$</span>30</td>
+</tr>
+    `
+pullWeedsEl.disabled = true;
+total()
+sum = 0
+}
