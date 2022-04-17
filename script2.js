@@ -56,19 +56,19 @@ function remCar(){
     <td class="left">Mow Lawn <span class="remove" id="removeCar-el" onclick="remLawn()">REMOVE</span></td> 
     <td class="right"><span class="cr">$</span>20</td>
 </tr>`)
-washCarEl.disabled = false;
 misc()
+washCarEl.disabled = false;
 
 }
 
 function remLawn(){
     prices.pop(20)
     HTML.pop(`<tr>
-    <td class="left">Wash Car <span class="remove" id="removeCar-el" onclick="remCar()">REMOVE</span></td> 
+    <td class="left">Wash Car <span class="remove" id="removeLawn-el" onclick="remCar()">REMOVE</span></td> 
     <td class="right"><span class="cr">$</span>10</td>
 </tr>`)
-mowLawnEl.disabled = false;
 misc()
+mowLawnEl.disabled = false;
 }
 
 function remWeeds(){
@@ -77,8 +77,8 @@ function remWeeds(){
     <td class="left">Pull Weeds <span class="remove" id="removeCar-el" onclick="remWeeds()">REMOVE</span></td> 
     <td class="right"><span class="cr">$</span>20</td>
 </tr>`)
-pullWeedsEl.disabled = false;
 misc()
+pullWeedsEl.disabled = false;
 }
 
 
