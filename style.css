@@ -3,22 +3,20 @@ body {
     font-family: Inter, Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background: #1F2937;
 }
 .container{
     margin: 0;
     padding: 0;
     height: auto;
-    color: #eee;
     margin: auto;
-    background-color: #1F2937;
 }
 
 .header{
-    background: #3A69D2;
+    background: #a1c1e1;
     text-align: center;
     width: 100%;
     padding: 20px 0;
+    color: #000;
    
 }
 
@@ -53,7 +51,8 @@ body {
     border-radius: 5px;
     width: 30%;
     box-sizing: border-box;
-    color: #1F2937;
+    color: #000;
+    background: #eee;
 }
 
 
@@ -73,7 +72,7 @@ margin-top: 20px;
 
 th {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 td{
@@ -84,17 +83,17 @@ td{
 }
 
 hr{
-    border: 1px solid #aaa;
+    border: 1px solid #ccc;
 }
 
 .cr{
-    color: #aaa;
+    color: #777;
     font-weight: 400;
 }
 .notes{
     font-size: 12px;
     font-weight: 400;
-    color: #aaa;
+    color: #777;
 }
 .sum{
     font-size: 30px;
@@ -106,7 +105,7 @@ hr{
     box-sizing: border-box;
     padding: 10px;
     font-size: 16px;
-    background-color: #3A69D2;
+    background-color: #000;
     color: #eee;
     border-radius: 5px;
 }
