@@ -14,7 +14,7 @@ const removeCarEl = document.getElementById("removeCar-el")
 washCarEl.addEventListener("click", function(){
     items.push(10)
     tableEl.innerHTML += `<tr>
-    <td class="left">Wash Car <span class="remove" id="removeCar-el">x</span></td> 
+    <td class="left">Wash Car <span class="remove" id="removeCar-el">REMOVE</span></td> 
     <td class="right"><span class="cr">$</span>10</td>
 </tr>`
 washCarEl.disabled = true;
@@ -27,7 +27,7 @@ sum = 0
 mowLawnEl.addEventListener("click", function(){
     items.push(20)
     tableEl.innerHTML+= `<tr>
-    <td class="left">Mow Lawn</td>
+    <td class="left">Mow Lawn<span class="remove" id="removeLawn-el">REMOVE</span></td>
     <td class="right"><span class="cr">$</span>20</td>
 </tr>
     `
@@ -41,7 +41,7 @@ mowLawnEl.addEventListener("click", function(){
 pullWeedsEl.addEventListener("click", function(){
     items.push(30)
     tableEl.innerHTML+= `<tr>
-    <td class="left">Pull Weeds</td>
+    <td class="left">Pull Weeds<span class="remove" id="removeWeeds-el">REMOVE</span></td>
     <td class="right"><span class="cr">$</span>30</td>
 </tr>
     `
@@ -66,5 +66,5 @@ function total (){
 // REMOVE CAR WASH 
 
 removeCarEl.addEventListener("click", function(){
-    console.log("Car wash removed")
+    alert("Car wash removed")
 })
