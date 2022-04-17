@@ -69,6 +69,16 @@ width: 100%;
 margin-top: 20px;
 }
 
+.remove{
+    font-weight: 400;
+    background-color: #000;
+    color: white;
+    padding: 1%;
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: 14px;
+    margin-left: 5px;
+}
 
 th {
     font-size: 12px;
@@ -83,7 +93,7 @@ td{
 }
 
 hr{
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
 }
 
 .cr{
