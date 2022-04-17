@@ -1,0 +1,112 @@
+@import url(https://rsms.me/inter/inter.css);
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #1F2937;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    color: #eee;
+    margin: auto;
+    background-color: #1F2937;
+}
+
+.header{
+    background: #3A69D2;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+   
+}
+
+.main{
+    padding:  10%;
+    max-width: 480px;
+    margin: auto;
+}
+
+.title{
+    padding: 20px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.subtitle{
+    padding: 20px;
+    padding-top: 0;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.main{
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    color: #1F2937;
+}
+
+
+.left{
+    text-align: left;
+}
+
+.right  {
+    text-align: right;
+}
+
+table   {
+width: 100%;
+margin-top: 20px;
+}
+
+
+th {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+td{
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+hr{
+    border: 1px solid #aaa;
+}
+
+.cr{
+    color: #aaa;
+    font-weight: 400;
+}
+.notes{
+    font-size: 12px;
+    font-weight: 400;
+    color: #aaa;
+}
+.sum{
+    font-size: 30px;
+}
+
+#reset-btn{
+    width: 98%;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3A69D2;
+    color: #eee;
+    border-radius: 5px;
+}
